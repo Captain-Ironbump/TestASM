@@ -64,7 +64,7 @@ DefineTiles:
 		ret
 
 InitPallet:
-    ld c, 0 * 8
+    ld c, 1 * 8
     ld hl, GBPalettes
     call SetBGPalettes
     ret
